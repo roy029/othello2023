@@ -1,6 +1,7 @@
 class AI(object):
-    def name(self):
-        return 'sara039'
+    def _init_(self):
+        self.name = "yumeki"
+        self.face = "🕺"
 
     def play(self, board, color):
         while True:
